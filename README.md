@@ -32,6 +32,19 @@
 $ yarn install
 ```
 
+## Database connection
+
+Rename “gAuthTest” to yours database name in the .env file
+
+## Prisma
+
+```bash
+# migrations
+$ npx prisma migarte dev
+# start the prisma studio 
+$ npx prisma studio
+```
+
 ## Running the app
 
 ```bash
